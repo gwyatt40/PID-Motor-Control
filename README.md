@@ -24,12 +24,12 @@ Dec 8- Dec 13:
   Basir- Finish and check Solidworks mock assembly 
   
   ***NOTE*** It turns out that these goals were actually due Friday, the 6th, so in addition to catching up on these we will also complete 
-  Basir: Finish fritzing and work on code
+  Basir: Finish fritzing and work on code 
   Georgia: Work on code and gather materials/start setup 
   
   ## Materials
   - RobotDyn 1 Channel AC Arduino Dimmer (from Amazon)
-  - Arduino UNO
+  - Arduino METRO 
   - Blender (motor and power cords are a part of this)
   - Wires 
   - Potentiometer 
@@ -43,6 +43,7 @@ Dec 8- Dec 13:
   All materials currently needed should be easily obtainable from the part bins, the AC dimmer was ordered from Amazon and the blender belongs to Basir. If we need anything else in the future we will most likely use Amazon as our main resource, but we shouldn't need any other special components since we already have the dimmer and the blender with its motor, power wires, etc. 
   
   ## Description
+   ### SolidWorks Box
   We are going to use the AC dimmer we got from Amazon to control and decrease the 120 V current running from a wall outlet into the blender motor. We are not going to print a new body for the blender but will instead create a box in SolidWorks that will attach to the back of the blender and contain the Arduino, breadboard, wiring, and dimmer. Wires will run from this into the original body of the blender in order to attach to the motor and the blender's power cable will extend from here and connect to a wall outlet. Considerations for this part include:
   -The potentiometer must be easily accessible on the outside of the blender so for now we should plan to sauter wires onto it, if we simply plug it into the breadboard will we not be able to access it once the assembly is added to the blender.
   - The addition of the assembly must not throw off the balance of the blender and in order to do this it should take up as little weight and space as possible. The issue of balance is one of the reasons why we chose to add the assembly to the back of the blender and not to one of the sides.
@@ -51,8 +52,24 @@ Dec 8- Dec 13:
   Keeping in mind all of these considerations and constraints, Basir created a design for the box in SolidWorks that meets all criteria. I. We figured it would easier to create the box and figure out how much space we had to work with before planning the wiring so we planned the box first. The box is a skeleton of a 3D printed floor with four hollow columns attached. The columns have slots to hold sheets of acrylic for the walls and metal standoffs inside of them to easily attach the top. There are holes on the bottom to screw in the Arduino and holes in the sides to attach the box to the blender. There is also a grid of large holes on the back so that the box will blend in with the design of the blender, which has a similar grid on the front for ventilation. Photos below:
  
 INSERT PHOTOS
-
   
+   ### Wiring
+   
+   We will start work on wiring after we have printed and assembled the box in order to know what space we have to work with. In terms of components for the wiring part of this assignment we will need:
+  
+   - Arduino METRO (Similar to UNO but uses micro USB, has on/off switch for power, LED on side with USB port)
+   - RobotDyn 1 Channel AC Arduino Dimmer (Pretty much THE most important part of the project, allows us to control the motor)
+   - Blender (For motor and power cable)
+   - Wires (All should be custom cut and color coded)
+   - Prototyping sheild (Takes up less space than breadboard, easier to connect)
+   - Resistor
+   - Potentiometer (Will sauter on longer wires for easier access)
+   
+   We will have the fritzing diagrams complete by the end of the week (Dec. 13) but we know that the basic outline of the fritzing will involve 120 V of power from an outlet going into the AC dimmer, the dimmer being controlled by the Arduino according to te potentiometer, and the decreased voltage power running from the dimmer to the motor. It is possible that issues could occur when we actually put together the wiring because we have to devise a safe method for cutting the blender's power cord and attaching it to the the dimmer as input. Also, we have to find a way to connect (most likely sauter) the motor to he power wires coming from the Arduino. As previously stated, we also have to ensure that all components fit efficiently into the box and that the potentiometer is accessible. To add to the challenge we will have to exercise extra caution due to the high voltage that will be entering the dimmer from the power outlet.   
+   
+   ### Code
+   While we work on the wiring we will also be creating a code to go with it. This code will not yet include the PID aspect of the project that Ella and Justine are working on. It will simply have our part of the code which controls the motor and does not adjust for resistance. One both our projects are complete we will combine our codes (and our wiring) to create a final product. The deadline for the code is the same as the deadline for the wiring (Dec. 13). Obviously this means that we wil have limited time to test run our code before we complete it. Friday, in class, we will test both our code and our wiring once both are complet For now, however, we should stil be able to create a mostly-accurate test code using online resources and elements of past projects (i.e. the potentiometer project).
+   The code will use some variable (most likely readValue) to read the value of the potentiometer and then convert this to another variable (probably writeValue) which will be sent to the dimmer to tell it how much to decrease the voltage. This is very similar to the [Potentiometer Project Code](https://github.com/gwyatt40/Intermediate-Arduino/blob/master/Potentiometer/potentiometer1.ino)
   
   
   

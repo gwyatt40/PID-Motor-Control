@@ -1,6 +1,6 @@
 # PID-Motor-Control-
 ## Project Goal
-  To design a method to successfully and accurately control a blender motor through an Arduino AC dimmer that will allow for the addition of PID code to minimize error. Due date: Dec 13, 2019
+  To design a method to successfully and accurately control a blender motor through an Arduino AC dimmer that will allow for the addition of PID code to minimize error. Due date: Jan 17, 2019
 ## Success Criteria
 - The end goal for the entire project is to have a motor that maintains a constant speed no matter the level of reistance. This goal will be accomplished by combining our motor-AC dimmer complex with Justine and Ella's photoreflector sensor which will calculate the speed. 
 

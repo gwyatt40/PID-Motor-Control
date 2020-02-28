@@ -94,8 +94,8 @@ Things we need for documentation:
 - Write a paragraph explaining the wiring, a bit of info about process and dimmer, maybe move fritzing here?
 - Write about process of assembly, what more could be done to simplify 
 - Add photos of final solidworks designs, write a paragraph explaining process and a paragraph expalining function
--Edit plan part of docuentation
--Find a way to submit
+- Edit plan part of docuentation
+- Find a way to submit
 
 
 Goal: have complete by Saturday, Febuary 29

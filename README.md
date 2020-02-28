@@ -76,8 +76,28 @@ INSERT PHOTOS
 
 ## Fritzing and Images 
 
+## Solidworks 
 
+## Code 
+
+## Wiring 
+
+## Assembly 
+
+## Conclusions and Lessons Learned 
   
-  
- 
+{
+Things we need for documentation: 
+- A paragraph on lessons learned and conclusions
+- Added fritzing and images plus captions
+- Upload the final code, link in readme, write a paragraph explaining, write a paragraph about the process
+- Write a paragraph explaining the wiring, a bit of info about process and dimmer, maybe move fritzing here?
+- Write about process of assembly, what more could be done to simplify 
+- Add photos of final solidworks designs, write a paragraph explaining process and a paragraph expalining function
+-Edit plan part of docuentation
+-Find a way to submit
+
+
+Goal: have complete by Saturday, Febuary 29
+}
   

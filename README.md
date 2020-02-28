@@ -1,4 +1,4 @@
-# PID-Motor-Control-
+# PID Motor Control Plan 
 ## Project Goal
   To design a method to successfully and accurately control a blender motor through an Arduino AC dimmer that will allow for the addition of PID code to minimize error. Due date: Jan 17, 2019
 ## Success Criteria
@@ -71,7 +71,12 @@ INSERT PHOTOS
    While we work on the wiring we will also be creating a code to go with it. This code will not yet include the PID aspect of the project that Ella and Justine are working on. It will simply have our part of the code which controls the motor and does not adjust for resistance. One both our projects are complete we will combine our codes (and our wiring) to create a final product. The deadline for the code is the same as the deadline for the wiring (Dec. 13). Obviously this means that we wil have limited time to test run our code before we complete it. Friday, in class, we will test both our code and our wiring once both are complet For now, however, we should stil be able to create a mostly-accurate test code using online resources and elements of past projects (i.e. the potentiometer project).
    The code will use some variable (most likely readValue) to read the value of the potentiometer and then convert this to another variable (probably writeValue) which will be sent to the dimmer to tell it how much to decrease the voltage. This is very similar to the [Potentiometer Project Code](https://github.com/gwyatt40/Intermediate-Arduino/blob/master/Potentiometer/potentiometer1.ino) except minus the LCD and with a motor instead of an LED. Also with a much, much higher voltage.
    The most difficult aspect of the coding for this project will definitely be using the AC dimmer. Figuring out pins, functions, and potentially libraries for this new component could be challenging, but thankfully (as always) there is plenty of information online. One helpful resource is the [Customer Questions and Answers](https://www.amazon.com/RobotDyn-controller-control-Arduino-Raspberry/dp/B072K9P7KH/ref=sr_1_1_sspa?hvadid=77721769478724&hvbmt=be&hvdev=c&hvqmt=e&keywords=ac%2Bdimmer%2Barduino&qid=1576082989&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQVRGVFJBSzE1UkEwJmVuY3J5cHRlZElkPUEwNTA5NDQ1MjIxRFpaNk1LTTFMNyZlbmNyeXB0ZWRBZElkPUEwNjQ0NjQ2MTFMMTEyMDdRMTQwNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1) on the Amazon page for the product we bought. Customers have posted their own codes, uses for the dimmer, and responses to other's questions so the page contains lots pf useful information. Once the code is complete, I will add it to the GitHub and post a more in-depth description of it (same for wiring).
-  
+
+# PID Motor Control Documentation 
+
+## Fritzing and Images 
+
+
   
   
  

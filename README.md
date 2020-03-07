@@ -74,13 +74,18 @@ INSERT PHOTOS
 
 # PID Motor Control Documentation 
 
-## Fritzing and Images 
+## Overview 
+As stated in the plan, our over all goal for this project was to use an AC dimmer to control the voltage going to a motor and thus be able to alter its speed. In order to do this we had to wire up a circuit containing a dimmer, a motor, and a potentiometer; create a code that could control this circuit; and build an addition to the handmixer that could efficiently contain the both dimmer and the arduino. Our original due date for this project was January 17, 2020, howver, due to a few setbacks, we did not complete this project until February 21, 2020. 
+
 
 ## Solidworks 
-
-## Code 
+## Code
+The main objective for the code with this project was to convert a value read from a potentiometer to a value that could be written by the AC dimmer. Our original thought had been to use a code from the dimmerś amazon project page, as mentioned in the plan, however, none of the several codes we tried from Amazon qworked properly, so we had to look elsewhere online. We eventually found a code that used timers already built into the arduino to control the dimmer by activating certain components, such as the zero cross detector, at certain points along the voltage wave. Once we were able to control the dimmer, we wrote a map function that converted the value of a potentiometer to avalue that was written by the dimmer. The main issue with this code was that, because it used the Arduino's timers to control the dimmer, it couldn't use the Serial Monitor, any delays, or any other timer-based functions. This meant that the only was to test it was to wire it up to something. Because we didn't want to deal with the motor yet, we first hooked the dimmer up to a lightbulb to try out the code. It's worth noting that a potential reason for the failure of the first Amazon codes we tried was due to the fact that our dimmer broke at some point during the trail process (more detail on that in the wiring section). (Insert two codes, one original commets and one with my comments.)
 
 ## Wiring 
+The wiring for this project wasn't as difficult as the code because there was more information and documentation online, mostly on the [Amazon](https://www.amazon.com/RobotDyn-controller-control-Arduino-Raspberry/dp/B072K9P7KH) and [RobotDyn Company](https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html) pages. We did have to exercise a certain degree of caution because we were dealing with 120V. The main issue that occured with the wiring was that the first AC dimmer we ordered was either broken when we ordered it or broke when we accidentally touched two wires from the power source together near it. We aren't sure which and we only realised it was broken after Mr. Diroff helped us run a very simple test code that failed to turn on our test lightbulb. When we ordered a new dimmer (the same RobotDyn model) the test code worked immediately. The wiring diagrams below are pretty comprehensive but one bit of extra information is that we found that the negative side of the power cable had faint writing on it and the positive side did not, which allowed us to differentiate them. 
+
+(Insert sketch from website and fritzing) 
 
 ## Assembly 
 

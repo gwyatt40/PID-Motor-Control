@@ -87,9 +87,14 @@ The wiring for this project wasn't as difficult as the code because there was mo
 
 (Insert sketch from website and fritzing) 
 
-## Assembly 
 
 ## Conclusions and Lessons Learned 
+  Overall, despite going well over its original time limit, this project was a success. The finished product wasn't perfect, the motor turned at a very high speed at would jump a bit at lower potentiometer values, but we met our orignial goal of being able to control it with an AC dimmer. Here are some lessons we learned/things we would change if we did the project again: 
+  
+  - Create a concrete schedule- We didn't really have a specific, day-by-day schedule going into this project. We ended up making weekly goals as we went along. This worked out in the ende, but we cpuld have used our time more efficiently if we had planned ahead. 
+  - Document over the course of the project- It would have been helpful to have an ongoing record of the codes we tried, problems we ran into, etc. instead of summarizing everything at the end of the project.
+  - Understand how a code works before trying it- I began to completely read over codes and try to figure out exactly what they were doing towards the end of the project, but at the beginning I immediately tested any code I found and moved on to the next if it didn't work. This wasted time and meant that I might have missed easily fixable errors in otherwise functional codes. 
+  
   
 {
 Things we need for documentation: 

@@ -75,13 +75,40 @@ As stated in the plan, our over all goal for this project was to use an AC dimme
 
 ## Solidworks 
 We needed a box to place the Arduino, dimmer, and other wires inside it and attach it on the back of the mixer to make everything look nice and clean. The first design was not approved because it used a lot of support material, I redesigned the box this time I printed the base and top of the box to cut the cost and did not use any support materials. And I laser cut the sides from clear plastic so we could see the inside and make sure everything is where they supposed to be.  
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/SWBoxAssembly.png" width="400">
+
+ - The complete assembly (open view)
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/SWBoxAssemblyClosed.png" width="400">
+
+ - The complete assembly (closed view)
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/SWBoxBase.png" width="400">
+
+ - The base of the box attachment; where the Arduino attaches 
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/SWBoxLid.png" width="400">
+
+ - The lid for the box attachment; where the dimmer attaches
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/SWBoxSide.png" width="400">
+
+ - The side of the box attatchment, 3 out of 4 sides look like this
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/SWBoxBack.png" width="400">
+
+ - The fourth side of the box that attaches to the mixer, holes for screws and power cable
+
 ## Code
 The main objective for the code with this project was to convert a value read from a potentiometer to a value that could be written by the AC dimmer. Our original thought had been to use a code from the dimmerś amazon project page, as mentioned in the plan, however, none of the several codes we tried from Amazon qworked properly, so we had to look elsewhere online. We eventually found a code that used timers already built into the arduino to control the dimmer by activating certain components, such as the zero cross detector, at certain points along the voltage wave. Once we were able to control the dimmer, we wrote a map function that converted the value of a potentiometer to avalue that was written by the dimmer. The main issue with this code was that, because it used the Arduino's timers to control the dimmer, it couldn't use the Serial Monitor, any delays, or any other timer-based functions. This meant that the only was to test it was to wire it up to something. Because we didn't want to deal with the motor yet, we first hooked the dimmer up to a lightbulb to try out the code. It's worth noting that a potential reason for the failure of the first Amazon codes we tried was due to the fact that our dimmer broke at some point during the trail process (more detail on that in the wiring section). (Insert two codes, one original commets and one with my comments.)
 
 ## Wiring 
 The wiring for this project wasn't as difficult as the code because there was more information and documentation online, mostly on the [Amazon](https://www.amazon.com/RobotDyn-controller-control-Arduino-Raspberry/dp/B072K9P7KH) and [RobotDyn Company](https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html) pages. We did have to exercise a certain degree of caution because we were dealing with 120V. The main issue that occured with the wiring was that the first AC dimmer we ordered was either broken when we ordered it or broke when we accidentally touched two wires from the power source together near it. We aren't sure which and we only realised it was broken after Mr. Diroff helped us run a very simple test code that failed to turn on our test lightbulb. When we ordered a new dimmer (the same RobotDyn model) the test code worked immediately. The wiring diagrams below are pretty comprehensive but one bit of extra information is that we found that the negative side of the power cable had faint writing on it and the positive side did not, which allowed us to differentiate them. 
 
-(Insert sketch from website and fritzing) 
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/RobotDynFritzing.png" width="600">
+
+- Fritzing diagram from the [RobotDyn Website](https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html)
 
 ## Schedule 
 We didn't really have a comprehensive schedule for this project, but here's a link to our [weekly milestone goals from January 8th onward](https://docs.google.com/document/d/1TzHuSQZx-D-xI5e1sqXkh7DXw1wI24h5xXonfPMz6lk/edit?usp=sharing). Information about our pre-Winter Break schedule is in the plan section of this read.me, under "Weekly Goals (To December 13)". 
@@ -93,6 +120,7 @@ We didn't really have a comprehensive schedule for this project, but here's a li
   - Document over the course of the project- It would have been helpful to have an ongoing record of the codes we tried, problems we ran into, etc. instead of summarizing everything at the end of the project.
   - Understand how a code works before trying it- I began to completely read over codes and try to figure out exactly what they were doing towards the end of the project, but at the beginning I immediately tested any code I found and moved on to the next if it didn't work. This wasted time and meant that I might have missed easily fixable errors in otherwise functional codes. 
  
-***NOTE*** I don't have photos or commented code yet!!! I will upload these to the read.me on Monday!!!!
-}
+
+Need: Real-life photos (and video?), our actual fritzing, 2 codes (my comments and original comments)
+
   

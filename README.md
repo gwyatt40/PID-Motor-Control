@@ -121,6 +121,6 @@ We didn't really have a comprehensive schedule for this project, but here's a li
   - Understand how a code works before trying it- I began to completely read over codes and try to figure out exactly what they were doing towards the end of the project, but at the beginning I immediately tested any code I found and moved on to the next if it didn't work. This wasted time and meant that I might have missed easily fixable errors in otherwise functional codes. 
  
 
-Need: Real-life photos (and video?), our actual fritzing, 2 codes (my comments and original comments)
+Need: Real-life photos (and video?), our actual fritzing, 2 codes (my comments and original comments), add captions to archived codes, figure out strange fritzing and commit history? files
 
   

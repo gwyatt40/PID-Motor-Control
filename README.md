@@ -72,6 +72,14 @@ Dec 8- Dec 13:
 ## Overview 
 As stated in the plan, our over all goal for this project was to use an AC dimmer to control the voltage going to a motor and thus be able to alter its speed. In order to do this we had to wire up a circuit containing a dimmer, a motor, and a potentiometer; create a code that could control this circuit; and build an addition to the handmixer that could efficiently contain the both dimmer and the arduino. Our original due date for this project was January 17, 2020, however, due to a few setbacks, we did not complete this project until February 21, 2020. 
 
+## Final Images
+Below are several photos of our final product.
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot12.png" width="400">
+
+https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot14.png
+
+https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot15.png
 
 ## Solidworks 
 We needed a box to place the Arduino, dimmer, and other wires inside it and attach it on the back of the mixer to make everything look nice and clean. The first design was not approved because it used a lot of support material, I redesigned the box this time I printed the base and top of the box to cut the cost and did not use any support materials. And I laser cut the sides from clear plastic so we could see the inside and make sure everything is where they supposed to be.  
@@ -121,6 +129,5 @@ We didn't really have a comprehensive schedule for this project, but here's a li
   - Understand how a code works before trying it- I began to completely read over codes and try to figure out exactly what they were doing towards the end of the project, but at the beginning I immediately tested any code I found and moved on to the next if it didn't work. This wasted time and meant that I might have missed easily fixable errors in otherwise functional codes. 
  
 
-Need: Real-life photos (and video?), our actual fritzing, 2 codes (my comments and original comments), add captions to archived codes, figure out strange fritzing and commit history? files
-
+Need: photos, our actual fritzing added to doc,comment and caption codes, put each archive code in own correct folder, fix screenshot lnk issue
   

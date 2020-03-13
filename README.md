@@ -75,11 +75,15 @@ As stated in the plan, our over all goal for this project was to use an AC dimme
 ## Final Images
 Below are several photos of our final product.
 
-<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot12.png" width="400">
 
-https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot14.png
 
-https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot15.png
+<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot14.png" width="400" height="400">
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot12.png" width="400" height="400">
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot15.png" width="400" height="400">
+
+<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot16.png" width="400" height="400">
 
 ## Solidworks 
 We needed a box to place the Arduino, dimmer, and other wires inside it and attach it on the back of the mixer to make everything look nice and clean. The first design was not approved because it used a lot of support material, I redesigned the box this time I printed the base and top of the box to cut the cost and did not use any support materials. And I laser cut the sides from clear plastic so we could see the inside and make sure everything is where they supposed to be.  

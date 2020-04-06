@@ -1,29 +1,10 @@
+//Georgia and Basir
+// Final Motor Control Code (Georgia's Comments)
+/* This was the first code we tried after ordering a new dimmer and it worked. With a few changes, it became our final 
+code. The one issue we encountered with this code was that it is impossible to run delays in it because the code
+already uses the Arduinos timer functions. The comments on this version are mine, to see comments from the website go
+to the original commenst file. */
 
-
-// AC Control V1.1
-// 
-// This Arduino sketch is for use with the heater
-// control circuit board which includes a zero
-// crossing detect function and an opto-isolated TRIAC.
-// 
-// AC Phase control is accomplished using the internal
-// hardware timer1 in the Arduino
-// 
-// Timing Sequence
-// * timer is set up but disabled
-// * zero crossing detected on pin 2
-// * timer starts counting from zero
-// * comparator set to "dely to on" value
-// * counter reaches comparator value
-// * comparator ISR turns on TRIAC gate
-// * counter set to overflow - pulse width
-// * counter reaches overflow
-// * overflow ISR turns off TRIAC gate
-// * TRIAC stops conducting at next zero cross
-// The hardware timer runs at 16MHz. Using a
-// divide by 256 on the counter each count is
-// 16 microseconds.  1/2 wave of a 60Hz AC signal
-// is about 520 counts (8,333 microseconds).
 #include <RBDdimmer.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>

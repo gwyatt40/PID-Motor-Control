@@ -1,4 +1,9 @@
-
+//Georgia and Basir
+// Final Motor Control Code (Georgia's Comments)
+/* This was the first code we tried after ordering a new dimmer and it worked. With a few changes, it became our final 
+code. The one hiccup we encountered with this code was that it is impossible to run delays in it because the code
+already uses the Arduino's timer functions. The comments on this version are from the website, to my comments go
+tto the "G Comments" file. */
 
 // AC Control V1.1
 // 

@@ -1,3 +1,10 @@
+//Georgia and Basir
+// Prototype Code 2 (Zero Cross + DimValue Code)
+/* We found this code online early on in the code trial process. It compares a "dimValue" variable read and converted 
+from a potentiometer with a with a "dimming" variable to determine whether the brightness should increase or decrease.
+There is a seperate void function involving the zero cross detector and triac control. This code did not work, but 
+that may have been due to an error with our dimmer and not due to any faults in the code itself. The comments are from the
+the website.*/
 
 int potPin= 2;  //Sets potentiometer to analog pin A0
 int AC_LOAD= 3;  // Sets AC LOAD pin as 3 

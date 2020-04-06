@@ -79,8 +79,6 @@ Below are several photos of our final product.
 
 <img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot14.png" width="400" height="400">
 
-<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot12.png" width="400" height="400">
-
 <img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot15.png" width="400" height="400">
 
 <img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/Screenshot16.png" width="400" height="400">
@@ -122,6 +120,9 @@ The wiring for this project wasn't as difficult as the code because there was mo
 
 - Fritzing diagram from the [RobotDyn Website](https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html)
 
+<img src = "https://github.com/gwyatt40/PID-Motor-Control/blob/master/Media/ProjectFritzing.png" width="700">
+
+- A diagram of our final fritzing
 ## Schedule 
 We didn't really have a comprehensive schedule for this project, but here's a link to our [weekly milestone goals from January 8th onward](https://docs.google.com/document/d/1TzHuSQZx-D-xI5e1sqXkh7DXw1wI24h5xXonfPMz6lk/edit?usp=sharing). Information about our pre-Winter Break schedule is in the plan section of this read.me, under "Weekly Goals (To December 13)". 
 
@@ -133,5 +134,5 @@ We didn't really have a comprehensive schedule for this project, but here's a li
   - Understand how a code works before trying it- I began to completely read over codes and try to figure out exactly what they were doing towards the end of the project, but at the beginning I immediately tested any code I found and moved on to the next if it didn't work. This wasted time and meant that I might have missed easily fixable errors in otherwise functional codes. 
  
 
-Need: photos, our actual fritzing added to doc,comment and caption codes, put each archive code in own correct folder, fix screenshot lnk issue
+Need:  ,comment and caption codes, put each archive code in own correct folder,
   

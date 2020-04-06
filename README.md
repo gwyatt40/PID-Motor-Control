@@ -116,7 +116,7 @@ The main objective for the code with this project was to convert a value read fr
 ## Wiring 
 The wiring for this project wasn't as difficult as the code because there was more information and documentation online, mostly on the [Amazon](https://www.amazon.com/RobotDyn-controller-control-Arduino-Raspberry/dp/B072K9P7KH) and [RobotDyn Company](https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html) pages. We did have to exercise a certain degree of caution because we were dealing with 120V. The main issue that occured with the wiring was that the first AC dimmer we ordered was either broken when we ordered it or broke when we accidentally touched two wires from the power source together near it. We aren't sure which and we only realised it was broken after Mr. Diroff helped us run a very simple test code that failed to turn on our test lightbulb. When we ordered a new dimmer (the same RobotDyn model) the test code worked immediately. The wiring diagrams below are pretty comprehensive but one bit of extra information is that we found that the negative side of the power cable had faint writing on it and the positive side did not, which allowed us to differentiate them. 
 
-<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/RobotDynFritzing.png" width="600">
+<img src = "https://github.com/gwyatt40/PID-Motor-Control-/blob/master/Media/RobotDynFritzing.png" width="750">
 
 - Fritzing diagram from the [RobotDyn Website](https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html)
 

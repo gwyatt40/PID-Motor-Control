@@ -3,7 +3,7 @@
 /* This was the first code we tried after ordering a new dimmer and it worked. With a few changes, it became our final 
 code. The one hiccup we encountered with this code was that it is impossible to run delays in it because the code
 already uses the Arduino's timer functions. The comments on this version are mine, to see comments from the website go
-to the "original comment" file. */
+to the "Original Comments" file. */
 
 #include <RBDdimmer.h> //Dimmer libraries and other setup info
 #include <avr/io.h>

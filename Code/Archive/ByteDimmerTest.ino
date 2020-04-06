@@ -1,4 +1,7 @@
-       
+// Georgia and Basir
+// Dimmer Test Code 1 (Byte Dimmer Test)
+/*This was the first code that Mr. Diroff found to test the dimmer. The attachInterrupt sections were commented out 
+to create a simple brightness-altering loop. The dimmer did not respond to this test code. */
 
 const byte zcPin = 2;
 
